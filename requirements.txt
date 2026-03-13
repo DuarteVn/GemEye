@@ -1,0 +1,32 @@
+# VisionFNT Live - Dependências
+# =============================
+
+# Interface Web
+gradio>=4.0.0
+
+# Visão Computacional
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Google Gemini (modelo multimodal)
+google-generativeai>=0.8.0
+python-dotenv>=1.0.0
+
+# Futuras integrações (descomentar quando necessário)
+# ---------------------------------------------------
+# Modelos multimodais via Hugging Face
+# transformers>=4.35.0
+# torch>=2.0.0
+# accelerate>=0.24.0
+
+# Modelo Qwen2-VL específico
+# qwen-vl-utils>=0.0.2
+
+# Detecção de objetos com YOLO
+# ultralytics>=8.0.0
+
+# API (opcional)
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+

@@ -1,0 +1,3 @@
+# Este diretório armazenará pesos e configurações de modelos
+# Os arquivos de modelo são tipicamente grandes e devem ser ignorados pelo git
+
