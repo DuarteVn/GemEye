@@ -1,5 +1,5 @@
-# VisionFNT Live - Dependências
-# =============================
+# GemEye - Dependências
+# =====================
 
 # Interface Web
 gradio>=4.0.0

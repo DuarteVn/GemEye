@@ -2,7 +2,7 @@
 Módulo de logging.
 
 Fornece funcionalidades para registro de interações, eventos e erros
-do sistema VisionFNT Live.
+do sistema GemEye.
 """
 
 import logging
@@ -19,7 +19,7 @@ _log_file: Optional[Path] = None
 
 
 def setup_logger(
-    name: str = "visionfnt",
+    name: str = "gemeye",
     level: int = logging.INFO,
     log_to_file: bool = False,
     log_dir: str = "logs"
@@ -70,7 +70,7 @@ def setup_logger(
         log_path.mkdir(parents=True, exist_ok=True)
         
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        _log_file = log_path / f"visionfnt_{timestamp}.log"
+        _log_file = log_path / f"gemeye_{timestamp}.log"
         
         file_handler = logging.FileHandler(_log_file, encoding="utf-8")
         file_handler.setLevel(level)

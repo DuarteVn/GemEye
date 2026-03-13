@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-VisionFNT Live - Ponto de entrada principal.
+GemEye - Ponto de entrada principal.
 
-Este script inicia a aplicação VisionFNT Live, que permite
+Este script inicia a aplicação GemEye, que permite
 interagir com um modelo multimodal usando imagens da webcam.
 
 Usage:
@@ -38,7 +38,7 @@ def parse_args() -> argparse.Namespace:
         Namespace com os argumentos parseados.
     """
     parser = argparse.ArgumentParser(
-        description="VisionFNT - Assistente de Visão Computacional",
+        description="GemEye - Assistente de Visão Computacional",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Exemplos:
@@ -102,13 +102,13 @@ def main() -> None:
     print("""
     ===========================================================
     |                                                         |
-    |   VisionFNT  Live                                        |
+    |   GemEye                                                    |
     |   Assistente de Visao Computacional em Tempo Real       |
     |                                                         |
     ===========================================================
     """)
     
-    logger.info("Iniciando VisionFNT...")
+    logger.info("Iniciando GemEye...")
     logger.info(f"Configurações: port={args.port}, host={args.host}, share={args.share}")
     
     try:

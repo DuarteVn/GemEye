@@ -308,7 +308,7 @@ if __name__ == "__main__":
     print(f"Range: [{processed.min():.2f}, {processed.max():.2f}]")
     
     # Testa overlay de texto
-    with_text = add_text_overlay(test_image, "VisionFNT Live", position=(50, 50))
+    with_text = add_text_overlay(test_image, "GemEye", position=(50, 50))
     print(f"Com texto: {with_text.shape}")
     
     print("\nTestes concluídos!")

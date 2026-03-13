@@ -1,7 +1,7 @@
 """
 Módulo de interface Gradio.
 
-Fornece a interface web para interação com o sistema VisionFNT Live.
+Fornece a interface web para interação com o sistema GemEye.
 Permite captura de imagens via webcam ou upload, e chat com o modelo
 multimodal.
 """
@@ -119,7 +119,7 @@ def create_interface() -> gr.Blocks:
     """
     
     with gr.Blocks(
-        title="VisionFNT Live",
+        title="GemEye",
     ) as app:
 
         # question_input definido antes dos exemplos para poder ser referenciado
@@ -133,7 +133,7 @@ def create_interface() -> gr.Blocks:
         # Header
         gr.Markdown(
             """
-            # VisionFNT Live
+            # GemEye
             **Assistente de Visão Computacional em Tempo Real** — Capture uma imagem pela webcam ou faça upload, depois faça perguntas sobre o que você vê!
             """
         )
@@ -255,7 +255,7 @@ def launch_app(
         server_name: Nome/IP do servidor.
     """
     logger = get_logger()
-    logger.info(f"Iniciando VisionFNT Live na porta {server_port}...")
+    logger.info(f"Iniciando GemEye na porta {server_port}...")
     
     app = create_interface()
     app.launch(

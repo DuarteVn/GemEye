@@ -1,4 +1,4 @@
-# VisionFNT Live
+# GemEye
 
 **Assistente de Visão Computacional em Tempo Real**
 
@@ -15,8 +15,8 @@ Um sistema que usa webcam + Google Gemini para responder perguntas sobre o que v
 ### 1. Clonar e entrar no projeto
 
 ```bash
-git clone <seu-repositorio>
-cd webcam-test
+git clone https://github.com/DuarteVn/GemEye.git
+cd GemEye
 ```
 
 ### 2. Criar ambiente virtual (recomendado)
@@ -88,7 +88,7 @@ GEMINI_MODEL=gemini-2.5-flash
 ## 📁 Estrutura do Projeto
 
 ```
-webcam-test/
+GemEye/
 ├── src/
 │   ├── capture/
 │   │   └── webcam.py           # Captura de webcam
