@@ -1,5 +1,5 @@
 """
-VisionGPT Live - Hugging Face Spaces Entry Point.
+GemEye - Hugging Face Spaces Entry Point.
 
 Este arquivo é o ponto de entrada para o Hugging Face Spaces.
 """
